@@ -9,4 +9,4 @@ const magic = event => {
 	inputText.style.fontSize = fontSizeControl.value + "px";
 	
 };
-fontSizeControl.addEventListener('change', magic);
+fontSizeControl.addEventListener('input', magic);
