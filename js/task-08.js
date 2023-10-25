@@ -14,6 +14,11 @@ function  handleSubmit (event)  {
  if (email.value === "" || password.value === "") {
 	 return alert("Form should`nt be empty");
  }
- console.log(`Email: ${email.value}, Password: ${password.value}`);
+ const sheet =     {
+	email: email.value,
+	password: password.value
+};
+console.log (sheet);
+//  console.log(`Email: ${email.value}, Password: ${password.value}`);
  event.currentTarget.reset();
 }
